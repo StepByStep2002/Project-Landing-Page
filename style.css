@@ -7,7 +7,7 @@ body
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    height: 100vh;
 }
 
 /*-----Start of section 1-----*/
@@ -18,6 +18,7 @@ body
     width: 100%;
     background-color: #1f2937;
     justify-content: center;
+    flex: 1 0 0;
 }
 
 .section1_wrapper
@@ -88,11 +89,12 @@ color: #e5e7eb;
 
 .sign_up_top
 {
-    width: 90px;
-    height: 30px;
+    width: 130px;
+    height: 35px;
     background-color: #3882f6;
     border-radius: 10px;
     border-color: #3882f6;
+    border-style: solid;
     color: #f9faf8;
     font-size: 18px;
 }
@@ -123,6 +125,7 @@ h1{
     align-items: center;
     background-color: white;
     width: 100%;
+    flex: 1 0 0;
 }
 
 .section2_wrapper
@@ -179,6 +182,7 @@ font-weight: 900;
     justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
+    flex: 1 0 0;
 }
 
 .section3_wrapper
@@ -203,9 +207,89 @@ font-weight: 900;
 
 .name
 {
-align-self: flex-end;
-font-weight: 900;
-font-size: 24px;
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 24px;
 }
 
 /*-----End of section 3-----*/
+
+
+/*-----Start of section 4-----*/
+
+.section4
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1 0 0;
+}
+
+.sign_up_box
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100vh;
+    height: 100px;
+    padding: 20px 50px 20px;
+}
+
+
+h3
+{
+    font-size: 24px;
+    font-weight: 900;
+    color: #e5e7eb;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.action_text
+{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.sign_up_bottom
+{
+    width: 130px;
+    height: 35px;
+    background-color: #3882f6;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #f9faf8;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+/*-----End of section 4-----*/
+
+
+/*-----Start of the footer-----*/
+
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    width: 100%;
+    padding: 30px 0 30px;
+}
+
+.footer_text
+{
+    color: #f9faf8;
+}
+
+/*-----End of the footer-----*/
